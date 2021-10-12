@@ -1,185 +1,164 @@
 {
-  "sections": {
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "RavenCraft",
-            "heading_size": "large"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "See All Products",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-cottonbro-5089105.jpg",
-        "image_2": "shopify:\/\/shop_images\/pexels-cottonbro-5089117.jpg",
-        "adapt_height_first_image": true,
-        "desktop_text_box_position": "center",
-        "show_text_box": true,
-        "image_overlay_opacity": 40,
-        "color_scheme": "background-1",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "What is RavenCraft?",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>RavenCraft is the best place to get hand-made, customized, professional accessories for yourself or for your loved ones. Observe the attention to detail in our products as we provide passion and precision to our work process.<\/p>"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "About Us",
-            "button_link": "shopify:\/\/pages\/about-us",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true
-      }
-    },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "RavenCraft Necklace Collection",
-        "collection": "necklace",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": true,
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": true,
-        "show_rating": true
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "cover_image": "shopify:\/\/shop_images\/row-of-necklace-chains-close-up.jpg",
-            "video_url": "https:\/\/www.youtube.com\/watch?v=j4_HVFAG3ho",
-            "description": "Jewelry Making Basics",
-            "image_padding": false
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "white-wolf-necklace",
-            "second_image": true,
-            "image_padding": false,
-            "secondary_background": true
-          }
-        },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": "necklace",
-            "image_padding": false,
-            "color_scheme": "background-1"
-          }
-        }
-      },
-      "block_order": [
-        "video",
-        "product",
-        "collection"
-      ],
-      "settings": {
-        "heading": "Necklaces",
-        "desktop_layout": "left",
-        "mobile_layout": "column"
-      }
-    },
-    "multi_column": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/long-tied-choker-necklace.jpg",
-            "title": "Necklace Making Essentials",
-            "text": "<p>In this blog post, I am going to talk about the essentials of necklace making, including the base materials needed for such a process.<\/p>"
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/womens-watch-on-wrist.jpg",
-            "title": "Watches That Fit",
-            "text": "<p>We are not only making watches that physically suit your wrist, but also ones that <em><strong>fit<\/strong><\/em> your personal image. These watches will make you feel complete as a person!<\/p>"
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/hands-holding-a-green-mug.jpg",
-            "title": "A New Way to Drink!",
-            "text": "<p>Our customized, hand-painted mugs will improve your experience of drinking beverages! As you hold your personalized cup, you will feel the enchanting taste of <a href=\"\/pages\/about-us\" target=\"_blank\" title=\"About Us\"><strong>RavenCraft<\/strong><\/a> worksmanship.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "Blog Posts",
-        "image_width": "full",
-        "image_ratio": "square",
-        "column_alignment": "left",
-        "background_style": "secondary",
-        "button_label": "Latest Blog Posts",
-        "button_link": "shopify:\/\/blogs\/ravencraft-blogs",
-        "swipe_on_mobile": false
-      }
-    }
-  },
-  "order": [
-    "image_banner",
-    "rich_text",
-    "featured_products",
-    "collage",
-    "multi_column"
-  ]
+	"sections": {
+		"image_banner": {
+			"type": "image-banner",
+			"blocks": {
+				"heading": {
+					"type": "heading",
+					"settings": {
+						"heading": "RavenCraft",
+						"heading_size": "large"
+					}
+				},
+				"button": {
+					"type": "buttons",
+					"settings": {
+						"button_label_1": "See All Products",
+						"button_link_1": "shopify://collections/all",
+						"button_style_secondary_1": true,
+						"button_label_2": "",
+						"button_link_2": "",
+						"button_style_secondary_2": false
+					}
+				}
+			},
+			"block_order": ["heading", "button"],
+			"settings": {
+				"image": "shopify://shop_images/pexels-cottonbro-5089105.jpg",
+				"image_2": "shopify://shop_images/pexels-cottonbro-5089117.jpg",
+				"adapt_height_first_image": true,
+				"desktop_text_box_position": "center",
+				"show_text_box": true,
+				"image_overlay_opacity": 40,
+				"color_scheme": "background-1",
+				"stack_images_on_mobile": true,
+				"show_text_below": true
+			}
+		},
+		"rich_text": {
+			"type": "rich-text",
+			"blocks": {
+				"heading": {
+					"type": "heading",
+					"settings": {
+						"heading": "What is RavenCraft?",
+						"heading_size": "h1"
+					}
+				},
+				"text": {
+					"type": "text",
+					"settings": {
+						"text": "<p>RavenCraft is the best place to get hand-made, customized, professional accessories for yourself or for your loved ones. The type of craftsmanship we offer is second to none! Observe the attention to detail in our products as we provide passion and precision to our work process.</p>"
+					}
+				},
+				"button": {
+					"type": "button",
+					"settings": {
+						"button_label": "About Us",
+						"button_link": "shopify://pages/about-us",
+						"button_style_secondary": false
+					}
+				}
+			},
+			"block_order": ["heading", "text", "button"],
+			"settings": {
+				"color_scheme": "background-1",
+				"full_width": true
+			}
+		},
+		"featured_products": {
+			"type": "featured-collection",
+			"settings": {
+				"title": "RavenCraft Necklace Collection",
+				"collection": "necklace",
+				"products_to_show": 4,
+				"show_view_all": true,
+				"swipe_on_mobile": true,
+				"image_ratio": "square",
+				"show_secondary_image": true,
+				"add_image_padding": false,
+				"show_image_outline": true,
+				"show_vendor": true,
+				"show_rating": true
+			}
+		},
+		"collage": {
+			"type": "collage",
+			"blocks": {
+				"video": {
+					"type": "video",
+					"settings": {
+						"cover_image": "shopify://shop_images/row-of-necklace-chains-close-up.jpg",
+						"video_url": "https://www.youtube.com/watch?v=j4_HVFAG3ho",
+						"description": "Jewelry Making Basics",
+						"image_padding": false
+					}
+				},
+				"product": {
+					"type": "product",
+					"settings": {
+						"product": "white-wolf-necklace",
+						"second_image": true,
+						"image_padding": false,
+						"secondary_background": true
+					}
+				},
+				"collection": {
+					"type": "collection",
+					"settings": {
+						"collection": "necklace",
+						"image_padding": false,
+						"color_scheme": "background-1"
+					}
+				}
+			},
+			"block_order": ["video", "product", "collection"],
+			"settings": {
+				"heading": "Necklaces",
+				"desktop_layout": "left",
+				"mobile_layout": "column"
+			}
+		},
+		"multi_column": {
+			"type": "multicolumn",
+			"blocks": {
+				"column1": {
+					"type": "column",
+					"settings": {
+						"image": "shopify://shop_images/long-tied-choker-necklace.jpg",
+						"title": "Necklace Making Essentials",
+						"text": "<p>In this blog post, I am going to talk about the essentials of necklace making, including the base materials needed for such a process.</p>"
+					}
+				},
+				"column2": {
+					"type": "column",
+					"settings": {
+						"image": "shopify://shop_images/womens-watch-on-wrist.jpg",
+						"title": "Watches That Fit",
+						"text": "<p>We are not only making watches that physically suit your wrist, but also ones that <em><strong>fit</strong></em> your personal image. These watches will make you feel complete as a person!</p>"
+					}
+				},
+				"column3": {
+					"type": "column",
+					"settings": {
+						"image": "shopify://shop_images/hands-holding-a-green-mug.jpg",
+						"title": "A New Way to Drink!",
+						"text": "<p>Our customized, hand-painted mugs will improve your experience of drinking beverages! As you hold your personalized cup, you will feel the enchanting taste of <a href=\"/pages/about-us\" target=\"_blank\" title=\"About Us\"><strong>RavenCraft</strong></a> worksmanship.</p>"
+					}
+				}
+			},
+			"block_order": ["column1", "column2", "column3"],
+			"settings": {
+				"title": "Blog Posts",
+				"image_width": "full",
+				"image_ratio": "square",
+				"column_alignment": "left",
+				"background_style": "secondary",
+				"button_label": "Latest Blog Posts",
+				"button_link": "shopify://blogs/ravencraft-blogs",
+				"swipe_on_mobile": false
+			}
+		}
+	},
+	"order": ["image_banner", "rich_text", "featured_products", "collage", "multi_column"]
 }
