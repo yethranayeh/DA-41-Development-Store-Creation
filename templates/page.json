@@ -2,10 +2,46 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "settings": {}
+      "settings": {
+      }
+    },
+    "1634031603eaa202fc": {
+      "type": "image-with-text",
+      "blocks": {
+        "1634031603eaa202fc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Craftsmanship"
+          }
+        },
+        "1634031603eaa202fc-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br\/>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea <br\/>commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br\/><\/p>"
+          }
+        },
+        "1634031603eaa202fc-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1634031603eaa202fc-0",
+        "1634031603eaa202fc-1",
+        "1634031603eaa202fc-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "image_first"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1634031603eaa202fc"
   ]
 }
