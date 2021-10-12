@@ -1,14 +1,20 @@
 {
   "current": {
-    "colors_solid_button_labels": "#FFFFFF",
-    "colors_accent_1": "#121212",
-    "colors_accent_2": "#334FB4",
-    "colors_text": "#121212",
-    "colors_outline_button_labels": "#121212",
-    "colors_background_1": "#FFFFFF",
-    "colors_background_2": "#F3F3F3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
+    "colors_solid_button_labels": "#ededed",
+    "colors_accent_1": "#444444",
+    "gradient_accent_1": "radial-gradient(circle, rgba(254,88,87,1) 0%, rgba(23,23,23,1) 100%)",
+    "colors_accent_2": "#fe5857",
+    "gradient_accent_2": "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(254,88,87,1) 100%)",
+    "colors_text": "#ededed",
+    "colors_outline_button_labels": "#ededed",
+    "colors_background_1": "#171717",
+    "gradient_background_1": "radial-gradient(circle, rgba(254,88,87,1) 0%, rgba(23,23,23,1) 100%)",
+    "colors_background_2": "#444444",
+    "gradient_background_2": "linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(254,88,87,1) 100%)",
+    "type_header_font": "madera_n4",
+    "type_body_font": "chivo_n4",
+    "sale_badge_color_scheme": "accent-2",
+    "favicon": "shopify:\/\/shop_images\/vecteezy_raven-logo-design.jpg",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -16,7 +22,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "color_scheme": "background-1"
+              "text": "Get 15% off on ALL products with discount code: 1PIXEL",
+              "color_scheme": "inverse",
+              "link": "https:\/\/aaktas-1pixel.myshopify.com\/discount\/1PIXEL"
             }
           }
         },
@@ -24,8 +32,53 @@
           "announcement-bar-0"
         ],
         "settings": {}
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/vecteezy_raven-logo-design.jpg",
+          "logo_width": 120,
+          "logo_position": "middle-left",
+          "menu": "main-menu",
+          "show_line_separator": true,
+          "enable_sticky_header": true
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "text",
+            "settings": {
+              "heading": "Address",
+              "subtext": "<p><em>Gülbahçe Mahallesi Gülbahçe Caddesi, 35430 İzmir, Turkey<\/em><\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": false,
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true
+        }
       }
-    }
+    },
+    "content_for_index": []
   },
   "presets": {
     "Default": {

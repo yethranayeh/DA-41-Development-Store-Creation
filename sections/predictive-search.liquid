@@ -14,7 +14,7 @@
         <li id="predictive-search-option-{{ forloop.index }}" class="predictive-search__list-item" role="option" aria-selected="false">
           <a href="{{ product.url }}" class="predictive-search__item predictive-search__item--link link link--text" tabindex="-1">
             {%- if product.featured_media != blank -%}
-              <img class="predictive-search__image"
+              <img loading="lazy" class="predictive-search__image"
                 src="{{ product.featured_media | img_url: '150x' }}"
                 alt="{{ product.featured_media.alt }}"
                 width="50"
