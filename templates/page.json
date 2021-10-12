@@ -34,8 +34,9 @@
         "1634031603eaa202fc-2"
       ],
       "settings": {
-        "height": "adapt",
-        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/pexels-cottonbro-5089127.jpg",
+        "height": "small",
+        "color_scheme": "accent-2",
         "layout": "image_first"
       }
     }
